@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Grape+Nuts&family=Gruppo&family=Handlee&family=Jura:wght@300&family=Moon+Dance&family=Nothing+You+Could+Do&family=Poppins:ital,wght@0,100;0,400;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Dosis:wght@200&family=Grape+Nuts&family=Gruppo&family=Handlee&family=Jura:wght@300&family=Moon+Dance&family=Nothing+You+Could+Do&family=Poppins:ital,wght@0,100;0,400;1,100&display=swap');
+
+*:root{
+  --theme: #4b0dba;
+}
+
+.btn{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* Home Page Css */
+
+.home-head-logo{
+font-size:4rem ;
+font-family: 'Comfortaa', sans-serif;
+font-weight: bolder;
+}
+
+.resize{
+  height: 5cm;
+  background-color: white;
+}
+
+.getstart{
+  height: auto;
+  width: auto;
+  margin: .3cm;
+}
+
+.details-home{
+  margin: .2cm;
+}
+
+/* Register Page */
+.errormessage{
+  color: rgb(194, 0, 0);
+}
+
+.reg-name{
+  font-family: 'Comfortaa', sans-serif;
+  text-align: center;
+  color: black;
+  font-size: 3.5rem;
+
+}
+
+.reg-text{
+  font-family: 'Gruppo', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.reg-input{
+  font-family: 'Jura', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+/* Login Page */
+.fp-btn{
+  text-decoration: none;
+  font-family: 'Jura', sans-serif;
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+.log-btn{
+  margin: .25cm;
+  font-family: 'Jura', sans-serif;
+  font-size: 1.3rem; font-weight: bolder;
+}
+
+/* Forgot Password Page */
+
+/* Add page */
+.app-add{ font-family: 'Comfortaa', sans-serif;
+  color: bisque;
+font-size: 2rem}
+
+.logout{
+  font-family: 'Gruppo', sans-serif;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: rgb(228, 0, 0);
+  text-decoration: none;
+  margin-left: .3cm;
+}
+.logout:hover{
+  color: #f38b8b;
+}
+.viewdocs{
+  font-family: 'Gruppo', sans-serif;
+  text-align: end;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: aliceblue;
+  margin-left: .5cm;
+  margin-right: .5cm;
+}
+
+.viewdocss{
+  font-family: 'Gruppo', sans-serif;
+  text-align: end;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: aliceblue;
+  
+  margin-left: .5cm;
+  margin-right: .5cm;
+}
+.viewdocs:hover{
+  color: rgb(80, 250, 207);
+}
+.viewdocss:hover{
+  color: #92FE9D ;
+  
+}
+
+
+.apphead{
+  background-color: black;
+}
+.app-heading{
+  text-align: center;
+  font-family: 'Gruppo', sans-serif;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.textarea{
+  height: 200vh!important;
+
+  margin-top: 5px !important;
+  border: 1px solid rgb(167, 167, 167) !important;
+  border-radius: 10px;
+}
+.copyright{
+  text-align: center;
+}
+
+/* modal.css */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal-close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.allmarik-btns{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: #4b0dba;
+  margin-left: .5cm;
+  margin-right: .5cm;
+}
+.allmarik-btnss{
+color: red;
+margin-left: .5cm;
+margin-right: .5cm;
+}
+
+.allmarik-btns:hover{
+  color: green;
+ 
+}
+.allmarik-btnss:hover{
+  color: rgb(173, 0, 0);
+ 
+}
+
+.upbtn{
+  margin-left: .2cm;
+  margin-right: .2cm;
+}
+.bckbtn{
+  margin-left: .2cm;
+  margin-right: .2cm;
+
+}
