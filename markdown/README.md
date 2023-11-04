@@ -1,6 +1,7 @@
 # Markdown Viewer
 
 I have developed a react Markdown Viewer App to display and render Markdown-formatted text documents in a user-friendly and visually appealing manner. Markdown is a lightweight markup language used for creating formatted and structured text documents without the need for complex coding or formatting. Here is a detailed description of a Markdown Viewer App:
+The page is responsive till 580 px
 
 # Steps to Register
 1.Click Signup button
